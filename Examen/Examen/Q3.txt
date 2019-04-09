@@ -1,0 +1,17 @@
+﻿Question 3
+
+In Inheritance concept which of the following members of base class are accesible to derived class members. Explain the answer.
+	1. static
+	2. protected
+	3. private
+	4. shared
+
+Answer:
+	Out of those, only protected members of base class are accesible to derived class members, the reason is due to the
+	level of protection:
+	Public - Accesed by everyone
+	Privated - Accesed only in the same struct or class
+	Protected - Accesed only in the same struct or class AND by its derived class members
+	Shared - Does not exist
+	Static - Makes a variable, class or method unable to be instanciated, so it does not allow access from derived class
+	members.
